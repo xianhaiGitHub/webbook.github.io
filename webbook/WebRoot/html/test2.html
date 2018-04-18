@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test2.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+	<input type="text" id="x">
+	<input type="button" id="btn">
+</body>
+<script text>
+	var oBtn = document.getElementByid("btn");
+	var name = document.getElementById("x").value;
+	oBtn.onclick = function() {
+		if (name == "") {
+			alert("不能为空");
+		}
+	}
+</script>
+</html>

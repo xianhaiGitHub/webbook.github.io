@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	p{
+		padding-left:113px;
+		padding-top:10px;
+		font-size: xx-large;
+	}
+	body{
+		background-image: url("../img/login.jpg");
+		background-position:100% 100%;
+	}
+	#wrap{
+		width:800px;
+		height:700px;
+		
+		border-radius:4px;
+		margin:200px auto;
+	}
+	#title{
+		width:600px;
+		height:40px;
+		margin:50px auto;
+	}
+	#login{
+		width:600px;
+		height:600px;
+		margin:0 auto;
+	}
+	#input-text{
+	width:300px;
+	height:30px;
+	border:0px solid #8e8e96;
+	border-radius:20px;
+	overflow:hidden;
+	margin-top:40px;
+	
+}
+	#input{
+	margin-left:120px;
+}
